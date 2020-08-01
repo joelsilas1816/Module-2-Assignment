@@ -1,0 +1,186 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin: 0;
+}
+
+.title{
+  overflow: none;
+  text-align: center;
+  border: 4px solid black;
+  width: 100px;
+  height: 40px;
+  padding: 5px;
+  float: right;
+  margin-top: 0px;
+  font-weight: bold;
+  position: relative;
+  background-color: blue;
+  font-size: 20px;
+  
+  }
+h1{
+    padding-bottom: 20px;
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 75px;
+
+ 
+}
+
+div{
+  padding: 0%;
+  margin: 0;
+}
+
+p {
+
+  clear: both;
+  width: 100%;
+  height: auto;
+  padding: 5px;
+  font-family: Helvetica;
+  color: black;
+
+  
+}
+
+/* Simple Responsive Framework. */
+.row {
+  width: 100%;
+
+
+}
+.container{
+  width:100%
+  ;padding-right:15px;
+  padding-left:15px;
+  margin-right:auto;
+  margin-left:auto
+}
+
+
+
+
+
+
+
+/*For Large Devices*/
+
+@media (min-width: 1200px) {
+    .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+      float: left;
+      border: 1px solid red;
+      background-color: blue;
+      margin: 6px;
+      
+    }
+    .col-lg-1 {
+      width: 8.33%;
+    }
+    .col-lg-2 {
+      width: 16.66%;
+    }
+    .col-lg-3 {
+      width: 25%;
+    }
+    .col-lg-4 {
+      width: 32%;
+    }
+    .col-lg-5 {
+      width: 41.66%;
+    }
+    .col-lg-6 {
+      width: 50%;
+    }
+    .col-lg-7 {
+      width: 58.33%;
+    }
+    .col-lg-8 {
+      width: 66.66%;
+    }
+    .col-lg-9 {
+      width: 74.99%;
+    }
+    .col-lg-10 {
+      width: 83.33%;
+    }
+    .col-lg-11 {
+      width: 91.66%;
+    }
+    .col-lg-12 {
+      width: 100%;
+    }
+  }
+
+  /*For Medium Size Devices*/
+
+  @media (min-width: 992px) and (max-width: 1199px) {
+    .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+      float: left;
+      border: 1px solid green;
+      background-color: blue;
+      margin: 6px;
+    }
+    .col-md-1 {
+      width: 8.33%;
+    }
+    .col-md-2 {
+      width: 16.66%;
+    }
+    .col-md-3 {
+      width: 25%;
+    }
+    .col-md-4 {
+      width: 33.33%;
+    }
+    .col-md-5 {
+      width: 41.66%;
+    }
+    .col-md-6 {
+      width: 48.5%;
+    }
+    .col-md-7 {
+      width: 58.33%;
+    }
+    .col-md-8 {
+      width: 66.66%;
+    }
+    .col-md-9 {
+      width: 74.99%;
+    }
+    .col-md-10 {
+      width: 83.33%;
+    }
+    .col-md-11 {
+      width: 91.66%;
+    }
+    .col-md-12 {
+      width: 98%;
+    }
+  }
+
+  @media (max-width: 992px){
+    .col-sm-12 {
+      width: 100%;
+      float: left;
+      border: 1px solid green;
+      background-color: blue;
+      margin-bottom: 10px;
+    }
+  }
+
+  #title1{
+    background-color: rgb(250, 169, 183);
+  }
+  
+  #title2{
+    background-color: rgb(139, 28, 28);
+  }
+  
+  #title3{
+    background-color: rgb(240, 240, 93);
+  }
