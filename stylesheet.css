@@ -18,7 +18,7 @@ body{
   margin-top: 0px;
   font-weight: bold;
   position: relative;
-  background-color: yellow;
+  background-color: gray;
   font-size: 20px;
   
   }
@@ -74,7 +74,7 @@ p {
     .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
       float: left;
       border: 1px solid red;
-      background-color: blue;
+      background-color: gray;
       margin: 6px;
       
     }
@@ -122,7 +122,7 @@ p {
     .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
       float: left;
       border: 1px solid green;
-      background-color: blue;
+      background-color: gray;
       margin: 6px;
     }
     .col-md-1 {
@@ -168,7 +168,7 @@ p {
       width: 100%;
       float: left;
       border: 1px solid green;
-      background-color: blue;
+      background-color: gray;
       margin-bottom: 10px;
     }
   }
